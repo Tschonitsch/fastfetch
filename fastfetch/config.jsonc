@@ -1,0 +1,237 @@
+{ 
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file", // Logo type: auto, builtin, small, file, etc.
+    "source": "~/.config/fastfetch/ASCII/star.txt", // Built-in logo name or file path
+    "width": 1, // Width in characters  
+    "height": 1, // Height in characters 
+    "padding": {
+      "top": 0, // Top padding
+      "left": 0, // Left padding
+      "right": 0 // Right padding
+    }
+  },
+  "display": {
+    "separator": " ",/*
+    "color":{
+    "title":"blue",
+    "keys": "blue",
+    "output":"light_blue"
+    },*/
+    "key": {
+      "type": "both-0"
+    }
+  },
+  "modules": [
+    {
+      "key": "╭───────────╮",
+      "type": "custom",
+      "keyIcon": ""
+    },
+    {
+      "type": "title",
+      "keyIcon": "",
+      "key": "│  user    │"
+    },
+    {
+      "key": "├───────────┤",
+      "type": "custom",
+      "keyIcon": ""
+    },
+    {
+      "type": "datetime",
+      "key": "│  Date    │",
+      "keyIcon": ""
+    },
+    {
+      "type": "uptime",
+      "key": "│  Uptime  │",
+      "keyIcon": ""
+    },
+    {
+      "key": "╰───────────╯",
+      "type": "custom",
+      "keyIcon": ""
+    },
+    /*
+    # ------------------- #
+    #       System        #
+    #        Specs        #
+    # ------------------- #
+    */
+    {
+      "key": "╭───────────╮",
+      "type": "custom",
+      "keyIcon": ""
+    },
+    {
+      "type": "custom",
+      "key": "│   Specs   │",
+      "keyIcon": ""
+    },
+    {
+      "key": "├───────────┤",
+      "type": "custom",
+      "keyIcon": ""
+    },
+    {
+      "type": "memory",
+      "key": "│  Memory  │",
+      "keyIcon": ""
+    },
+    {
+      "type": "swap",
+      "key": "│ 󰓡 Swap    │",
+      "keyIcon": ""
+    },
+    {
+      "type": "cpu",
+      "key": "│ 󰍛 CPU     │",
+      "keyIcon": ""
+    },
+    {
+      "type": "gpu",
+      "key": "│ 󰾲 GPU     │",
+      "keyIcon": ""
+    },
+    {
+      "type": "board",
+      "key": "│  Board   │",
+      "keyIcon": ""
+    },
+    {
+      "type": "disk",
+      "key": "│ 󰋊 Disk    │",
+      "keyIcon": ""
+    },
+    {
+      "key": "╰───────────╯",
+      "type": "custom",
+      "keyIcon": ""
+    },
+    {
+      "key": "╭───────────╮",
+      "type": "custom",
+      "keyIcon": ""
+    },
+
+    /*
+        # ------------------- #
+        #      Operating      #
+        #       System        #
+        # ------------------- #
+    */
+    {
+      "type": "custom",
+      "key": "│    OS     │",
+      "keyIcon": ""
+    },
+    {
+      "key": "├───────────┤",
+      "type": "custom",
+      "keyIcon": ""
+    },
+    {
+      "type": "bios",
+      "key": "│  Bios    │",
+      "keyIcon": ""
+    },
+    {
+      "type": "kernel",
+      "key": "│  kernel  │",
+      "keyIcon": ""
+    },
+    {
+      "type": "os",
+      "key": "│  OS      │",
+      "keyIcon": ""
+    },
+    {
+      "type": "command",
+      "key": "│ 󰚭 OS Age  │",
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days",
+      "keyIcon": ""
+    },
+    {
+      "type": "shell",
+      "key": "│  Shell   │",
+      "keyIcon": ""
+    },
+    {
+      "type": "wm",
+      "key": "│  WM      │",
+      "keyIcon": ""
+    },
+    {
+      "type": "packages",
+      "key": "│ 󰏖 Apps    │",
+      "keyIcon": ""
+    },
+    {
+      "key": "╰───────────╯",
+      "type": "custom",
+      "keyIcon": ""
+    },/*
+    {
+      "key": "╭───────────╮",
+      "type": "custom",
+      "keyIcon": ""
+    },
+    {
+      "type": "custom",
+      "key": "│\u001b[0m  Monitor  \u001b[36m│",
+      "keyIcon": ""
+    },
+    {
+      "key": "├───────────┤",
+      "type": "custom",
+      "keyIcon": ""
+    },
+    {
+      "type": "display",
+      "key": "│ 󰍹 Display │",
+      "keyIcon": ""
+    },
+    {
+      "key": "│           │",
+      "type": "custom",
+      "keyIcon": ""
+    },
+    {
+      "type": "bluetooth",
+      "key": "│  BT      │",
+      "keyIcon": ""
+    },
+    {
+      "type": "keyboard",
+      "key": "│  KeyB    │",
+      "keyIcon": ""
+    },
+    {
+      "type": "mouse",
+      "key": "│ 󰍽 mouse   │",
+      "keyIcon": ""
+    },
+    {
+      "key": "╰───────────╯",
+      "type": "custom",
+      "keyIcon": ""
+    },*/
+    {
+      "key": "╭───────────╮",
+      "type": "custom",
+      "keyIcon": ""
+    },
+    {
+      "type": "colors",
+      "key": "│  colors  │",
+      "keyIcon": "",
+      "symbol": "circle"
+    },
+    {
+      "key": "╰───────────╯",
+      "type": "custom",
+      "keyIcon": ""
+    }
+  ]
+}
