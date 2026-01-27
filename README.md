@@ -1,5 +1,5 @@
 # Normal
-![Fastfetch Example 1](example1.png)
+![Fastfetch Example 1](example.png)
 
 
 # With Peripherals
