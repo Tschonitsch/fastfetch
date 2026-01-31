@@ -7,6 +7,6 @@ To show peripherals, you need to **uncomment the corresponding option** in the c
 ![Fastfetch Example 2](example2.png)
 
 
-<div align="center">
+<div align="left">
   <img height="200" src="example2.png"  />
 </div>
