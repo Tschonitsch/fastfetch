@@ -171,7 +171,7 @@
       "key": "╰───────────╯",
       "type": "custom",
       "keyIcon": ""
-    },/*
+    },
     {
       "key": "╭───────────╮",
       "type": "custom",
@@ -179,7 +179,7 @@
     },
     {
       "type": "custom",
-      "key": "│\u001b[0m  Monitor  \u001b[36m│",
+      "key": "│  Pheriph  │",
       "keyIcon": ""
     },
     {
@@ -190,11 +190,6 @@
     {
       "type": "display",
       "key": "│ 󰍹 Display │",
-      "keyIcon": ""
-    },
-    {
-      "key": "│           │",
-      "type": "custom",
       "keyIcon": ""
     },
     {
@@ -216,11 +211,24 @@
       "key": "╰───────────╯",
       "type": "custom",
       "keyIcon": ""
-    },*/
+    },
     {
       "key": "╭───────────╮",
       "type": "custom",
       "keyIcon": ""
+    },
+    {
+      "type": "publicip",
+      "key": "│ Public IP │",
+      "keyIcon": ""
+    },
+    {
+      "type": "localip",
+      "key": "│ Local IP  │",
+      "keyIcon": "",
+      "showIpv4": true,
+      "showIpv6": true,
+      "showAllIPs": true
     },
     {
       "type": "colors",
