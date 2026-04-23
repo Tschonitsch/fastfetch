@@ -2,7 +2,7 @@
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
     "type": "file", // Logo type: auto, builtin, small, file, etc.
-    "source": "~/.config/fastfetch/ASCII/star.txt", // Built-in logo name or file path
+    "source": "~/.config/fastfetch/ASCII/Castle008.txt", // Built-in logo name or file path
     "width": 1, // Width in characters  
     "height": 1, // Height in characters 
     "padding": {
@@ -23,6 +23,7 @@
     }
   },
   "modules": [
+
     {
       "key": "╭───────────╮",
       "type": "custom",
@@ -109,18 +110,17 @@
       "type": "custom",
       "keyIcon": ""
     },
+
+/*
+╔══════════════════════════════════════╗
+║           Operating System           ║
+╚══════════════════════════════════════╝
+*/
     {
       "key": "╭───────────╮",
       "type": "custom",
       "keyIcon": ""
     },
-
-    /*
-        # ------------------- #
-        #      Operating      #
-        #       System        #
-        # ------------------- #
-    */
     {
       "type": "custom",
       "key": "│    OS     │",
@@ -172,6 +172,14 @@
       "type": "custom",
       "keyIcon": ""
     },
+
+
+/*
+╔══════════════════════════════════════╗
+║               Pheriph                ║
+╚══════════════════════════════════════╝
+*/
+/*
     {
       "key": "╭───────────╮",
       "type": "custom",
@@ -212,16 +220,24 @@
       "type": "custom",
       "keyIcon": ""
     },
+*/
+
+
+/*
+╔══════════════════════════════════════╗
+║              IP / Colors             ║
+╚══════════════════════════════════════╝
+*/
     {
       "key": "╭───────────╮",
       "type": "custom",
       "keyIcon": ""
-    },
+    },/*
     {
       "type": "publicip",
       "key": "│ Public IP │",
       "keyIcon": ""
-    },
+    },*/
     {
       "type": "localip",
       "key": "│ Local IP  │",
